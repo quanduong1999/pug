@@ -1,0 +1,297 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothings: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+header .header-top {
+  width: 100%;
+  height: 70px;
+}
+
+header .header-top .header-row1 {
+  height: 70px;
+}
+
+header .header-top .header-row1 .header-top-left {
+  height: 100%;
+  line-height: 70px;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col1 .svg {
+  line-height: 70px;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col1 .svg-p p {
+  font-size: 12px;
+  margin: 15px 0px 0px 3px;
+  color: #2F80ED;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col1 .svg-p a {
+  margin: 0px 0px 0px 3px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col2 .svg-p p {
+  color: #d4b26b;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col2 .svg-p a {
+  color: #d4b26b;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col3 {
+  position: relative;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col3 .header-col3-button {
+  background: #d4b26b;
+  width: 90px;
+  height: 36px;
+  line-height: 30px;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 17px;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col3 .header-col3-button a {
+  text-decoration: none;
+  color: white;
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col3 .button-cart {
+  position: absolute;
+  top: 8px;
+  background: red;
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 17px;
+  color: white;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col4 .header-col4-button {
+  border: 1px solid #d4b26b;
+  border-radius: 5px;
+  margin: 18px 0px 0px 0px;
+  padding: 5px;
+  width: 115px;
+}
+
+header .header-top .header-row1 .header-top-right .header-top-right-row .header-col4 .header-col4-button a {
+  color: #d4b26b;
+  text-decoration: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+header .header-bottom {
+  background: #be9c58;
+  height: 70px;
+}
+
+header .header-bottom .container.header-bottom-container {
+  height: 100%;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 {
+  height: 100%;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-3.header-bottom-row1-col1 {
+  background: #d4b880;
+  font-size: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-3.header-bottom-row1-col1 p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-6.header-bottom-row1-col2 form.menu-search {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  border: none;
+  position: relative;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-6.header-bottom-row1-col2 form.menu-search input.search-input {
+  width: 75%;
+  height: 50%;
+  border-radius: 20px;
+  border: none;
+  background: #f2f2f2;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-6.header-bottom-row1-col2 form.menu-search button.submit-button {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 75%;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-6.header-bottom-row1-col2 form.menu-search button.submit-button .button-icon {
+  background: #404040;
+  width: 35%;
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  left: 87%;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-3.header-bottom-row1-col3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-3.header-bottom-row1-col3 .mybook-icon {
+  background: white;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50%;
+  color: #d4b26b;
+  border-radius: 8px;
+}
+
+header .header-bottom .container.header-bottom-container .row.header-bottom-row1 .col-3.header-bottom-row1-col3 .mybook-icon p {
+  margin-top: 10%;
+  margin-left: 3%;
+}
+
+header .header-bottom-bottom {
+  background: #d4b880;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 {
+  background: white;
+  margin-bottom: 5px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 .dropdown-menu-col1 {
+  padding-top: 14px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 .dropdown-menu-col1 .dropdown-menu-li {
+  list-style-type: none;
+  margin-left: -25px;
+  height: 35px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 12px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 .dropdown-menu-col1 .dropdown-menu-li .dropdown-item1 {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #4f4f4f;
+  margin-left: 5px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 .dropdown-menu-col1 .allmenu {
+  border-bottom: none !important;
+  color: #d4b26b;
+  text-align: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  margin-left: 0% !important;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col1 .dropdown-menu-col1 .allmenu .alldropdownitem {
+  text-decoration: none;
+  color: #d4b26b;
+  margin-left: 10px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col2 .header-bottom-row2-col2-row2 {
+  margin: 15px 0px 0px 0px;
+  width: 100%;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col3 {
+  padding: 10px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col3 .right1slide {
+  margin-top: 5px;
+}
+
+header .header-bottom-bottom .header-bottom-bottom-container .header-bottom-row2 .header-bottom-row2-col3 .right2slide {
+  margin-top: 9px;
+}
